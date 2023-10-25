@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class JavaPrueba {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner (System.in);
+
+        System.out.print ("Introduzca el número: ");
+        int num1 = Integer.parseInt (sc.nextLine());
+	
+	if (num1%2 != 0){
+
+	System.out.println("El número es impar");
+	
+	} else {
+	
+	System.out.println("El número es par");
+	
+	}
+
+    }
+}
